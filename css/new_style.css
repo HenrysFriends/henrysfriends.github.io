@@ -1,0 +1,29 @@
+﻿.header-logo {
+	max-height: 110px;
+}
+
+.read-more-link {
+	font-style: italic;
+	text-decoration: underline;
+}
+
+.home-example-icons {
+	font-size: 34px;
+	color: orange;
+}
+
+.service_item {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+	.service_item .primary_btn2 {
+		align-self: flex-end;
+		margin-top: auto;
+	}
+
+	.service_item .primary_btn2::before {
+		left: unset;
+	}
